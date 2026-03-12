@@ -6,16 +6,44 @@
 
 ---
 
-## Running the Solved Application
+## Repository structure
+
+```
+.
+├── exercise/   ← Start here. Stubbed files with TODO comments to fill in.
+└── solved/     ← Reference solution. Run this to see the finished product.
+```
+
+---
+
+## Running the exercise (start here)
 
 ```bash
 # Terminal 1 — Backend (port 3001)
-cd backend
+cd exercise/backend
 npm install
 npm start
 
 # Terminal 2 — Frontend (port 5173)
-cd frontend
+cd exercise/frontend
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 — the page will be mostly blank until you implement the TODOs.
+
+---
+
+## Running the solved application (reference)
+
+```bash
+# Terminal 1 — Backend (port 3001)
+cd solved/backend
+npm install
+npm start
+
+# Terminal 2 — Frontend (port 5173)
+cd solved/frontend
 npm install
 npm run dev
 ```
